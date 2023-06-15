@@ -1,0 +1,17 @@
+.main__title {
+  @include font(30px, 500, 1.2);
+  margin-bottom: 30px;
+}
+
+.code + .code {
+  padding-top: 30px;
+}
+
+.code__title {
+  @include font(20px, 500, 1.2);
+  margin-bottom: 20px;
+}
+
+.code__content span {
+  @include font(20px, 700, 1.2);
+}

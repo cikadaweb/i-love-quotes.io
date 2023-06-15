@@ -1,0 +1,48 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *::after, *::before {
+    box-sizing: inherit;
+}
+
+body {
+    min-width: 320px;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.2;
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    max-width: 900px;
+    padding: 0 48px;
+    margin: 0 auto;
+    background-color: $secondary-color;
+}
+
+.d-flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.link {
+    text-decoration: underline;
+    color: #000000;
+}
+
+// Подключение стилей блока header
+@import './header/_header.scss';
+// Подключение стилей блока main
+@import './main/_main.scss';
+// Подключение стилей блока footer
+@import './footer/_footer.scss';
