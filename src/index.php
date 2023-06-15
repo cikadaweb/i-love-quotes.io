@@ -33,6 +33,19 @@
           <span>GET </span>
           <a class="link" target="_blank" href="./api/movie/random.php">http://localhost/api/movie/random.php</a>
         </code>
+
+        <div class="code__title">Пример ответа:</div>
+        <pre>
+          <code class="code__content">
+            {<br>
+              "id": 5,<br>
+              "name": "Интерстеллар",<br>
+              "category_name": "film",<br>
+              "text": "Нам всегда было свойственно преодолевать невозможное... Мы вспоминаем эти моменты. Моменты, когда мы осмеливаемся стремиться к невыполнимому, сокрушать барьеры, дотягиваться до звёзд, объяснить необъяснимое. Мы гордимся этими достижениями. Но мы всё растеряли. Может, мы просто забыли, что значит быть первооткрывателями, что мы лишь в начале пути, что наши величайшие свершения ещё впереди, что наша судьба — стремиться ввысь.",<br>
+              "created_at": "2023-06-13 21:44:45"<br>
+            }
+          </code>
+        </pre>
       </div>
 
       <div class="code">
@@ -48,7 +61,7 @@
   <footer class="footer">
     <div class="container d-flex-center">
       <div class="footer__title">
-        Все права защищены
+        (c) Все права защищены
       </div>
     </div>
   </footer>
